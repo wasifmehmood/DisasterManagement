@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/adminCurrentEmailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/current_email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/adminCurrentPassEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminCurrentEmailEt"
+        android:layout_margin="20dp"
+        android:hint="@string/current_password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/adminNewPassEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminCurrentPassEt"
+        android:layout_margin="20dp"
+        android:hint="@string/new_password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/changeBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminNewPassEt"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Change" />
+
+
+</RelativeLayout>

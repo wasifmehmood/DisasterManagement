@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924432736869",
+    "firebase_url": "https://disaster-management-560db.firebaseio.com",
+    "project_id": "disaster-management-560db",
+    "storage_bucket": "disaster-management-560db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924432736869:android:0f6c99cec1ce5910",
+        "android_client_info": {
+          "package_name": "com.example.disastermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924432736869-ugk2dhk7oek3gqe9mr66bphbilao72sd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwou1mWlia4-ovBQIVCbuAzhklXV0kflA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924432736869-ugk2dhk7oek3gqe9mr66bphbilao72sd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

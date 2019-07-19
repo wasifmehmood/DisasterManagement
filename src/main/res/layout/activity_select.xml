@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Select"
+    android:background="@color/colorLightBlack"
+
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/adminBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/volunteerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminBtn"
+        android:text="Volunteer"
+        android:layout_margin="20dp"
+        android:paddingRight="27dp"
+        android:paddingLeft="23dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+</RelativeLayout>

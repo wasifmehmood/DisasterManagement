@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/reportDurationSpinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:entries="@array/report_duration"
+        />
+    <!--<TextView-->
+    <!--android:id="@+id/calendrTv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Calendar"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:layout_below="@+id/reportDurationSpinner"/>-->
+
+    <Spinner
+        android:id="@+id/reportOptionsSpinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reportDurationSpinner1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:entries="@array/report_options"
+        />
+
+    <EditText
+        android:id="@+id/reportOptionsEt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reportOptionsSpinner1"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/reportGenerateBtn1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reportOptionsEt1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/generate_report" />
+
+</RelativeLayout>
